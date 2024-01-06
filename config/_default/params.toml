@@ -36,7 +36,7 @@ defaultBackgroundImage = "background.jpeg" # used as default for background imag
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
+  layout = "hero" # valid options: page, profile, hero, card, background, custom
   homepageImage = "background.jpeg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
