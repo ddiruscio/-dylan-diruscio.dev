@@ -89,7 +89,7 @@ layoutBackgroundHeaderSpace: false
         </tr>
         <tr>
             <td rowspan=3><img class="customEntitityLogo" src="chico.jpg"/></td>
-            <td rowspan=3><a href="https://tecnico.ulisboa.pt/en/" target="_blank">Chico State University</a></td>
+            <td rowspan=3><a href="https://www.csuchico.edu/" target="_blank">Chico State University</a></td>
         </tr>
         <tr>
             <td>BSc in Management Information Systems</td>
