@@ -10,7 +10,7 @@ tags: ["palworld", "gaming"]
 
 If you’re like me, you may have the distinct privilege of being the resident IT guy in your group of friends or simply the person with the best internet connection that created the initial co-op game. With that privilege comes the opportunity to run a dedicated server for games such as Palworld. 
 
-Unfortunately, you may have learned that while you can quite simply transfer the Save game files to your dedicated server, your Palworld character that you spent hours on in that initial co-op session with your friends will not work correctly. This guide will be an in-depth walk through of how to accomplish transferring your co-op player save file so it is able to be played on a dedicated server.
+Unfortunately, you may have learned that while you can quite simply transfer the Save game files to your dedicated server, your Palworld character that you spent hours on in that initial co-op session with your friends will not work correctly. This guide will be an in-depth walk through of how to accomplish transferring your co-op player save file so you are once again able to adventure with your same character on a dedicated server.
 
 Today we will be using xNul's Palworld Host Save Fix to convert your local .sav file to one that can be used in a dedicated server so you may preserve any progress already made in a co-op game as a host.
 
@@ -67,7 +67,7 @@ If you have completed both of the above we are now ready to proceed with install
 ```bash
 python fix-host-save.py "C:\Users\John\.cargo\bin\uesave.exe" "C:\Users\John\Desktop\my_temporary_folder\2E85FD38BAA792EB1D4C09386F3A3CDA" 6E80B1A6000000000000000000000000
 ```
-10. After you have done this, you will be informed that you should make a backup.Press enter once more and the process will take about 1-2 minutes. If completed successfully you will see some traceback saying that the the script completed successfully:
+10. After you have done this, you will be informed that you should make a backup. Press enter once more and the process will take about 1-2 minutes. If completed successfully you will see some traceback saying that the the script completed successfully:
   
 ![Image alt](examples/pal5.PNG)
 
