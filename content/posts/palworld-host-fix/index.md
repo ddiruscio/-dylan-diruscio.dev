@@ -44,9 +44,21 @@ If you have completed both of the above we are now ready to proceed with install
 </div>
 
 
-3. Once Rust is installed we can now install Uesave-rs which is necessary for the fix to work. Open up the command prompt and enter the following “cargo install --git https://github.com/trumank/uesave-rs.git”. This will install Uesave and will place the necessary executable file in your local path i.e: "C:\Users\ddiru\\.cargo\bin\uesave.exe"
-4. Now we are ready to download the necessary project files from the “Palworld Host Save Fix” GitHub repository. Create a new folder on your Desktop and then navigate in your terminal to that directory. Enter a “git clone https://github.com/xNul/palworld-host-save-fix.git” command to download the project files. If you don’t have git installed simply download the zip file from GitHub and extract the files.
-5. Now all Prerequisites should be installed and you can proceed to applying the fix.
+3. Once Rust is installed we can now install Uesave-rs which is necessary for the fix to work. Open up the command prompt and enter the following:
+    ```bash
+    cargo install --git https://github.com/trumank/uesave-rs.git
+    ```
+    This will install Uesave and will place the necessary executable file in your local path i.e: "C:\Users\ddiru\\.cargo\bin\uesave.exe"
+4. Now we are ready to download the necessary project files from the “Palworld Host Save Fix” GitHub repository. Create a new folder on your Desktop and then navigate in your terminal to that directory. Enter the following command to download the project files:
+
+    ```bash
+    git clone https://github.com/xNul/palworld-host-save-fix.git
+    ```
+
+   If you don’t have git installed, simply download the zip file from GitHub and extract the files.
+
+5. Now all Prerequisites should be installed, and you can proceed to applying the fix.
+
 
 <h3> Instructions for running the Palworld Host Save Fix script: </h3>
 
@@ -64,9 +76,9 @@ If you have completed both of the above we are now ready to proceed with install
 8. At this point we should have a folder copied from our dedicated server with both our host .sav file (00000000000000000000000000000001.sav) and new dedicated server .save file (C57EA93F2C0000000000000000000000.sav).
 9. Open your terminal and navigate to the desktop folder where your save folder is stored. Using your newly learned GUID from the .save file construct the string you will use for the fix-host-save script
 
-```bash
-python fix-host-save.py "C:\Users\John\.cargo\bin\uesave.exe" "C:\Users\John\Desktop\my_temporary_folder\2E85FD38BAA792EB1D4C09386F3A3CDA" 6E80B1A6000000000000000000000000
-```
+    ```bash
+    python fix-host-save.py "C:\Users\John\.cargo\bin\uesave.exe" "C:\Users\John\Desktop\my_temporary_folder\2E85FD38BAA792EB1D4C09386F3A3CDA" 6E80B1A6000000000000000000000000
+    ```
 10. After you have done this, you will be informed that you should make a backup. Press enter once more and the process will take about 1-2 minutes. If completed successfully you will see some traceback saying that the the script completed successfully:
   
 ![Image alt](examples/pal5.PNG)
