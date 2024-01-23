@@ -1,5 +1,5 @@
 ---
-title: "Palworld: Guide to transferring a Co-op host save file to a Dedicated Server"
+title: "Palworld: Tutorial for transferring a Co-op host save file to a Dedicated Server"
 date: 2024-01-22
 draft: false
 summary: "How to fix your Palworld host file so it can be used on a Dedicated Server"
