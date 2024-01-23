@@ -40,8 +40,9 @@ If you have completed both of the above we are now ready to proceed with install
 2. Press 1 to “Quick Install via the Visual Studio Community Installer”. Press 1 once again to complete the installation of Rust.
 
 <div style="flex: 1; margin: 10px; min-width: 64px;">
-    <img class="thumbnailshadow" src="examples/pal6.png" width="400" height="200" />
+    <img class="thumbnailshadow" src="examples/pal6.PNG" alt="Image alt" width="400" height="200" />
 </div>
+
 
 3. Once Rust is installed we can now install Uesave-rs which is necessary for the fix to work. Open up the command prompt and enter the following “cargo install --git https://github.com/trumank/uesave-rs.git”. This will install Uesave and will place the necessary executable file in your local path i.e: "C:\Users\ddiru\\.cargo\bin\uesave.exe"
 4. Now we are ready to download the necessary project files from the “Palworld Host Save Fix” GitHub repository. Create a new folder on your Desktop and then navigate in your terminal to that directory. Enter a “git clone https://github.com/xNul/palworld-host-save-fix.git” command to download the project files. If you don’t have git installed simply download the zip file from GitHub and extract the files.
@@ -49,10 +50,10 @@ If you have completed both of the above we are now ready to proceed with install
 
 <h3> Instructions for running the Palworld Host Save Fix script: </h3>
 
+
 1. Copy the save folder you want from C:\Users<username>\AppData\Local\Pal\Saved\SaveGames<random_numbers> to your dedicated server. This is your local saved folder and can also be found by going in-game and clicking the small folder icon in the bottom right when you load a game.
-<div style="flex: 1; margin:10px; min-width:128px">
-<img class="thumbnailshadow" src="examples/pal2.png"/>
-</div>
+![Image alt](examples/pal2.PNG)
+
 
 2. In the PalServer\Pal\Saved\Config\WindowsServer\GameUserSettings.ini file, change DedicatedServerName to match your save's folder name. For example, if the folder name is 2E85FD38BAA792EB1D4C09386F3A3CDA, update DedicatedServerName=2E85FD38BAA792EB1D4C09386F3A3CDA.
 3. Turn off your dedicated server and then delete PalServer\Pal\Saved\SaveGames\0<your_save_here>\WorldOption.sav to allow modification of PalWorldSettings.ini. Players will need to choose their respawn point again, but nothing else is affected.
@@ -68,8 +69,7 @@ python fix-host-save.py "C:\Users\John\.cargo\bin\uesave.exe" "C:\Users\John\Des
 ```
 10. After you have done this, you will be informed that you should make a backup.Press enter once more and the process will take about 1-2 minutes. If completed successfully you will see some traceback saying that the the script completed successfully:
   
-<div style="flex: 1; margin:10px; min-width:128px">
-    <img class="thumbnailshadow" src="examples/pal5.png"/>
-</div>
+![Image alt](examples/pal5.PNG)
 
 11. Now copy ALL data from your local folder back to your dedicated server path: “palworld\Pal\Saved\SaveGames\0”. If you don’t copy all data, you will get the wheel of death when loading back into your server. Now turn your server back on and your character should load back into Palworld.
+
