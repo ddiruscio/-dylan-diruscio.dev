@@ -80,8 +80,8 @@ layoutBackgroundHeaderSpace: false
             <td>2023</td>
         </tr>
          <tr>
-            <td>AWS Certified Cloud Practitioner</td>
-            <td>2022</td>
+            <td><a href="https://bughunters.google.com/profile/fc24871c-929e-4825-84f2-b07824185e26" target="_blank">Google Bug Bounty Leaderboard</a></td>
+            <td>2023</td>
         </tr>
         <tr>
             <td>PL-300 Power BI Data Analyst</td>
