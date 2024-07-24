@@ -15,7 +15,7 @@ The following code snippet demonstrates how to loop over entries in `sources.yml
 
 
 
-    ```
+    
     {% macro create_replica_view() %}
  
      {% set sources = [] %}
@@ -35,6 +35,6 @@ The following code snippet demonstrates how to loop over entries in `sources.yml
      {% endfor %}
      
      {% endmacro %}
-    ```
+
  
 By using this macro, you can streamline the process of managing and updating views in your SQL database, ensuring consistency and efficiency across your data engineering workflows.

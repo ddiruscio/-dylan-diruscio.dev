@@ -73,7 +73,7 @@ layoutBackgroundHeaderSpace: false
     <tbody>
         <tr>
             <td rowspan=4><img class="customEntitityLogo" src="certificate.PNG"/></td>
-            <td rowspan=4><a href="https://online.hbs.edu/" target="_blank">Professional Certificates</a></td>
+            <td rowspan=4><a href="https://learn.snowflake.com/en/certifications/snowpro-core/" target="_blank">Professional Certificates</a></td>
         </tr>
         <tr>
             <td>Snowflake SnowPro</td>
